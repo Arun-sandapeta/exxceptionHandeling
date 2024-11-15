@@ -25,7 +25,7 @@ public class BankCustService {
         } catch (InsufficientBalanceException e) {
             System.out.println(TransferEnum.INSUFFICIENT_BALANCE.getCode() + "  " + TransferEnum.INSUFFICIENT_BALANCE.getLabel());
         } catch (EnterAmountException e) {
-            System.out.println("EnterAmountException caught: " + e.getMessage());
+            System.out.println("EnterAmountException caught : " + e.getMessage());
 
 
         }
